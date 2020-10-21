@@ -2194,6 +2194,11 @@ input, select, textarea {
 
 
 /* Keely */
+#home img {
+	background-color: rgb(0, 0, 0, .8);
+}
+
+
 .user-circle:before {
 	content: '';
 }
