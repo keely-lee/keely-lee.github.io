@@ -2189,3 +2189,20 @@ input, select, textarea {
 			}
 
 		}
+
+
+
+
+/* Keely */
+.user-circle:before {
+	content: '';
+}
+
+.fa-user-circle {
+	font-size: 80% !important;
+}
+
+.cv {
+	font-weight: 900;
+	font-size: 2.4em !important;
+}
