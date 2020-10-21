@@ -48,7 +48,7 @@
           <p>Software Engineer</p>
         </header>
         <a href="#about" class="jumplink pic">
-          <span class="arrow icon solid fa-chevron-right"><span>Projects</span></span>
+          <span class="arrow icon solid fa-chevron-right"><span>About</span></span>
           <img src="images/portfolio-photo3.png" alt="" />
         </a>
       </article>
@@ -63,15 +63,33 @@
         </p>
         <section>
           <div class="row">
-            <div class="col-4 col-6-medium col-12-small">
-              <a href="#" class="image fit"><img src="images/robinsJacket.png" alt="robins-jacket"></a>
+            <!-- RobinsJacket -->
+            <div class="col-12 image fit">
+                <img class="image fit" src="images/robinsJacket.png" alt="robins-jacket">
+                <div class="project-desc-rj">
+                  <h4>RobinsJacket</h4>
+                  <p>RobinsJacket is a single-page clone of investing & trading app, Robinhood. Built with Ruby on Rails, React, Redux, PostgreSQL and BCrypt for secure user authentication and efficient data calls.</p>
+                  <a href="https://robins-jacket.herokuapp.com/" target="_blank"><i class="fas fa-globe"></i></a>
+                  <a href="https://github.com/keely-lee/RobinsJacket" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
             </div>
-            <div class="col-4 col-6-medium col-12-small">
-              <a href="#" class="image fit"><img src="images/repairShop.png" alt="repair-shop"></a>
+
+            <!-- openFridge -->
+            <div class="col-12">
+              <a href="https://open--fridge.herokuapp.com/" class="image fit"><img src="images/openFridge.png" alt="open-fridge"></a>
+              <p>OPENFRIDGE DESCRIPTION</p>
+              <a href="https://open--fridge.herokuapp.com/" target="_blank"><i class="fas fa-globe"></i></a>
+              <a href="https://github.com/keely-lee/open-fridge.git" target="_blank"><i class="fab fa-github"></i></a>
             </div>
-            <div class="col-4 col-6-medium col-12-small">
-              <a href="#" class="image fit"><img src="images/openFridge.png" alt="open-fridge"></a>
+
+            <!-- RepairShop -->
+            <div class="col-12">
+              <a href="https://keely-lee.github.io/repair-shop/" class="image fit"><img src="images/repairShop.png" alt="repair-shop"></a>
+              <p>REPAIR SHOP DESCRIPTION</p>
+              <a href="https://keely-lee.github.io/repair-shop/" target="_blank"><i class="fas fa-globe"></i></a>
+              <a href="https://github.com/keely-lee/repair-shop.git" target="_blank"><i class="fab fa-github"></i></a>
             </div>
+
           </div>
         </section>
       </article>
@@ -120,10 +138,11 @@
 
       <!-- resume -->
       <article id="resume" class="panel">
-        <div>
+        <div class="row">
           <object type="application/pdf" data="images/Keely-Lee-Resume.pdf">
-            <embed src="images/Keely-Lee-Resume.pdf" type="application/pdf">
-            This browser does not support PDFs. Please download the PDF to view it: Download PDF.
+            <!-- <embed src="images/Keely-Lee-Resume.pdf" type="application/pdf"> -->
+            This browser does not support PDFs. Please download the PDF to view it: 
+            <a href="images/Keely-Lee-Resume.pdf" download="keely-lee-resume">Download PDF.</a>
           </object>
         </div>
       </article>
