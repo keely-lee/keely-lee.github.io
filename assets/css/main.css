@@ -2213,6 +2213,11 @@ input, select, textarea {
 }
 
 
+	/* Resume / CV */
+	#resume object {
+		width: 100%;
+		height: 100%;
+	}
 
 
 	/* Contact info */
@@ -2228,14 +2233,24 @@ input, select, textarea {
 		cursor: pointer;
 	}
 
+	.contact-wrapper {
+		width: 100%;
+		height: 100%;
+	}
 
 
+		/* .space p:before {
+			content: '|';
+			visibility: hidden;
+			font-size: 100%;
+		} */
 
 		.card-front, .card-back {
 			width: 100%;
 			height: 100%;
 			-webkit-backface-visibility: hidden;
 			backface-visibility: hidden;
+			/* position: relative; */
 		}
 
 		.card-front {
