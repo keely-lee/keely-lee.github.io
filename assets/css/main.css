@@ -2244,21 +2244,34 @@ input, select, textarea {
 			color: #f26419;
 			text-align: center;
 			width: 100%;
-			margin-left: -0.5em;
+			/* margin-left: -0.5em; */
 		}
 
 		.cf-left {
-			width: 45%;
+			width: 40%;
 			display: flex;
 			align-items: center;
 		}
 
+		.cf-right {
+			width: 60%;
+			display: flex;
+			justify-content: center;
+			border-left: 2px double #777777;
+		}
+
+		.cf-right a {
+			text-decoration: none;
+			color: #777777;
+		}
+
 		.card-front i {
-			padding-right: 7px;
+			padding-right: 10px;
 		}
 
 		.card-front p {
 			margin-bottom: 1em;
+			margin-top: 1em;
 		}
 
 
