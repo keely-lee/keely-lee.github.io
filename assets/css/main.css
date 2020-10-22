@@ -2216,6 +2216,10 @@ body {
 	font-size: 2.4em !important;
 }
 
+.cv span {
+	font-weight: 300;
+}
+
 .copyright li:first-of-type {
 	color: #33658a;
 }
@@ -2393,13 +2397,13 @@ body {
 	}
 
 		.flip-down {
-			-webkit-animation: flip-scale-down-hor 1.5s linear both;
-							animation: flip-scale-down-hor 1.5s linear both;
+			-webkit-animation: flip-scale-down-hor .5s linear both;
+							animation: flip-scale-down-hor .5s linear both;
 		}
 
 		.flip-up {
-			-webkit-animation: flip-scale-down-opp 1.5s linear both;
-							animation: flip-scale-down-opp  1.5s linear both;
+			-webkit-animation: flip-scale-down-opp .5s linear both;
+							animation: flip-scale-down-opp  .5s linear both;
 		}
 
 		/* ----------------------------------------------
