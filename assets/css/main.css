@@ -2474,3 +2474,18 @@ body {
 								transform: scale(1) rotateX(360deg);
 			}
 		}
+
+
+	/* Languages & Skills */
+	/* #skills-wrapper {
+		margin-left: auto;
+		margin-right: auto;
+	} */
+	
+	#skills-wrapper > div {
+		margin: 12px;
+	}
+	
+	.lang-skills h4 {
+		text-align: center;
+	}
