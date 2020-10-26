@@ -2476,11 +2476,16 @@ body {
 		}
 
 
-	/* Languages & Skills */
+	/* About / Languages & Skills */
 	/* #skills-wrapper {
 		margin-left: auto;
 		margin-right: auto;
 	} */
+
+	#about > div > h2 {
+		margin-bottom: .75em;
+		padding-top: 1em;
+	}
 	
 	#skills-wrapper > div {
 		margin: 12px;
