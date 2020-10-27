@@ -1,15 +1,28 @@
-      // <script>
-      //   function test() {
-      //     const grab = document.getElementById("contact-wrapper");
-      //     grab.classList.toggle("flip-down");
-      //     grab.classList.toggle("flip-up");
-      //   }
-      // </script>
+(function personal() {
+  // Flip business card in contact section
+  $(".flip").click(flipContact)
+
+  function flipContact(){
+    $("#contact-wrapper").toggleClass("flip-down");
+    $("#contact-wrapper").toggleClass("flip-up");
+  }
 
 
+  // Project animation slide
+  $(".project-desc").hide();
 
-(function test() {
-  $("#contact-wrapper").toggleClass("flip-down");
-  $("#contact-wrapper").toggleClass("flip-up");
+  $(".project-div").hover( 
 
+    function() {
+      const divHeight = $(this).height();
+      $(this).height(divHeight);
+      $(this).toggleClass("project-hover");
+      $("img", this).toggleClass("shrink");
+      $(".project-desc", this).show();
+    }, function() { 
+      $(".project-desc").hide(); 
+      $(this).toggleClass("project-hover");
+      $("img", this).toggleClass("shrink");
+    }
+  )
 })(jQuery);
