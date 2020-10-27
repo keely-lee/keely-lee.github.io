@@ -2233,25 +2233,68 @@ body {
 		justify-content: space-between;
 	}
 
+	#projects h4 {
+		padding-top: .5em;
+	}
+
 	#projects img {
 		object-fit: contain;
+		cursor: pointer;
 	}
+
 	.project-desc {
 		width: 49%;
 	}
 
 	.project-desc p {
 		line-height: 150%;
+		margin-bottom: 4em;
 	}
 
+	#projects a {
+		font-size: 2em;
+		color: black;
+		margin: 5px;
+	}
+	
+	/* link flips */
+	#projects a.link-flip {
+		color: #f26419;
+	}
 
-		.shrink {
-			-webkit-animation: shrink 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-							animation: shrink 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	#projects a.link-flip > i {
+		-webkit-animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+		animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	}
 
-			object-fit: cover !important;
+		@-webkit-keyframes rotate-hor-center {
+			0% {
+				-webkit-transform: rotateX(0);
+								transform: rotateX(0);
+			}
+			100% {
+				-webkit-transform: rotateX(-360deg);
+								transform: rotateX(-360deg);
+			}
 		}
 
+		@keyframes rotate-hor-center {
+			0% {
+				-webkit-transform: rotateX(0);
+								transform: rotateX(0);
+			}
+			100% {
+				-webkit-transform: rotateX(-360deg);
+								transform: rotateX(-360deg);
+			}
+		}
+
+	/* image shrink */
+	.shrink {
+		object-fit: cover !important;
+		-webkit-animation: shrink 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+		animation: shrink 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	}
 
 		@-webkit-keyframes shrink {
 			0% { width: 100%; }
