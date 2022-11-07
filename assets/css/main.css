@@ -2400,6 +2400,11 @@ body {
 		top: 0;
 	}
 
+	.card-back-links {
+		position: relative;
+		bottom: 1.1em
+	}
+
 	.card-back p {
 		font-size: 3em;
 		font-weight: 900;
